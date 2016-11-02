@@ -1,6 +1,6 @@
 # DFXP to WebVTT Caption Migration Tool
 
-Uses Media API to find all videos that have old style captions (ttml, dfxp) downloads the caption files and uses pycaption to convert them to WebVTT captions. It then uses the [Source File Upload API for Dynamic Ingest](http://docs.brightcove.com/en/video-cloud/di-api/guides/push-based-ingest.html) to get an S3 bucket, push the webvtt files to to the S3 bucket, and then makes Dynamic Ingestion calls to add the WebVTT captions to the correct video.
+This Python script uses Media API to find all videos that have old style captions (ttml, dfxp) downloads the caption files and uses pycaption to convert them to WebVTT captions. It then uses the [Source File Upload API for Dynamic Ingest](http://docs.brightcove.com/en/video-cloud/di-api/guides/push-based-ingest.html) to get an S3 bucket, push the webvtt files to to the S3 bucket, and then makes Dynamic Ingestion calls to add the WebVTT captions to the correct video.
 
 ## Installation
 
