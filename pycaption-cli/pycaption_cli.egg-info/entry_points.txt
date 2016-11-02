@@ -1,0 +1,3 @@
+[console_scripts]
+pycaption = pycapcli.caption_converter:main
+
